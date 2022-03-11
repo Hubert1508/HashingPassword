@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+  color: limegreen;
+}
+
+.section{
+  display: flex;
+  border: 2px dashed limegreen;
+  width: auto;
+  justify-content: center;
+}
+
+video{
+  width: 50vw;
+}
+
+.login{
+  border: 2px dashed limegreen;
+  text-align: center;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#userName{
+  color: lightgreen;
+  background-color: black;
+}
+
+#userName:focus{
+  outline-style: none;
+}
+
+#password{
+  color: lightgreen;
+  background-color: black;
+}
+
+#password:focus{
+  outline-style: none;
+}
+
+.button{
+  color: lightgreen;
+  background-color: black;
+}
+
+form{
+  margin-top: 20px;
+}
+
+.showHash{
+  border: 2px dashed limegreen;
+  height: 50px;
+  font-size: 2vw;
+}
+
+::placeholder{
+  color: lightgreen;
+}
+
+.info{
+  color:red;
+}
+
+.info:hover{
+  color: lightgreen;
+}
+
+@media(max-width: 650px){
+
+  form{
+    display: grid;
+  }
+
+  .button{
+    margin-top: 10%;
+  }
+
+  .showHash{
+    font-size: 3vw;
+  }
+
+}
